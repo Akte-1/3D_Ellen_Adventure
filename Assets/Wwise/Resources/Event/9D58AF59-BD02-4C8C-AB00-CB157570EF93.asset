@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b45f0ec0d5bd7a14db5c3acfc39bc30d, type: 3}
+  m_Name: 9D58AF59-BD02-4C8C-AB00-CB157570EF93
+  m_EditorClassIdentifier: 
+  objectName: SFX_Staff_PickUp
+  id: 1385932960
+  guid: 9D58AF59-BD02-4C8C-AB00-CB157570EF93

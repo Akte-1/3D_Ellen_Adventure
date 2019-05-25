@@ -1,0 +1,606 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4fbca79590fb2f40b7e492b6ff4243b, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f18e43ddb13fa142b8c0b72ee1479c18
+    GuidInternal: 
+    m_lastTime: -8586439966923379258
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b43bce95f42e564a9bf14df0777c5014
+    GuidInternal: 
+    m_lastTime: -8586428118768591761
+    List:
+    - name: Indoor_Cave
+      guid: d00a5e2f1658314c80e131bce3dff431
+      id: 2720692548
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Indoor_Cave
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Indoor_Cave
+    - name: Outdoor
+      guid: 55ef948fb4846541aaf40492e22944b9
+      id: 144697359
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Outdoor
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Outdoor
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 170af71c77988c48b63b3bdb810746f0
+    GuidInternal: 
+    m_lastTime: -8586438040215516612
+    List:
+    - name: Level1
+      guid: 39a8876e0b87d645a9bf3e433d659551
+      id: 2678230382
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level1
+        ObjectType: 7
+      Path: Default Work Unit\Level1
+    - name: Level2
+      guid: f839d49610ddbe418c23fd49beba4cd7
+      id: 2678230381
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Level2
+        ObjectType: 7
+      Path: Default Work Unit\Level2
+    - name: Main
+      guid: 4f900983d87d9e4aa0b7c80661cf91b2
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: da8c444f10cb9641926cb23634c65058
+    GuidInternal: 
+    m_lastTime: -8586428666167372061
+    List:
+    - name: Amb_Dynamic_Birds
+      guid: e31ab115cc22524bb56f109df551f500
+      id: 887355868
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: Ambiance_Level1
+        ObjectType: 4
+      - ElementName: Amb_Dynamic_Birds
+        ObjectType: 3
+      Path: Default Work Unit\Ambiance\Ambiance_Level1\Amb_Dynamic_Birds
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Dynamic_Cigals
+      guid: a3f9df2c4badf941a1dcb52911046ebf
+      id: 3296866007
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: Ambiance_Level1
+        ObjectType: 4
+      - ElementName: Amb_Dynamic_Cigals
+        ObjectType: 3
+      Path: Default Work Unit\Ambiance\Ambiance_Level1\Amb_Dynamic_Cigals
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Dynamic_Fireflies
+      guid: 64d7e60da3ec0b47b54b86f6773d8361
+      id: 115900343
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: Ambiance_Level1
+        ObjectType: 4
+      - ElementName: Amb_Dynamic_Fireflies
+        ObjectType: 3
+      Path: Default Work Unit\Ambiance\Ambiance_Level1\Amb_Dynamic_Fireflies
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Static_Cave_Wet
+      guid: 082b6744b9fe3e43b382f97af4b300ee
+      id: 3225767929
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: Ambiance_Level2
+        ObjectType: 4
+      - ElementName: Amb_Static_Cave_Wet
+        ObjectType: 3
+      Path: Default Work Unit\Ambiance\Ambiance_Level2\Amb_Static_Cave_Wet
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Amb_Static_Jungle
+      guid: ed11a97a6af8fb4188ae6175a38f0df1
+      id: 1484040880
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiance
+        ObjectType: 4
+      - ElementName: Ambiance_Level1
+        ObjectType: 4
+      - ElementName: Amb_Static_Jungle
+        ObjectType: 3
+      Path: Default Work Unit\Ambiance\Ambiance_Level1\Amb_Static_Jungle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ellen_Foley_BodyRoll
+      guid: cbbce33281aa554bb99e1e29918a2e4b
+      id: 2495914587
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ellen
+        ObjectType: 4
+      - ElementName: Ellen_Foley_BodyRoll
+        ObjectType: 3
+      Path: Default Work Unit\Ellen\Ellen_Foley_BodyRoll
+      maxAttenuation: 0
+      maxDuration: 0.700521
+      minDuration: 0.7005
+    - name: Ellen_Foley_FS_Material
+      guid: 56a2a97491c4be4ba01b1c2b89b304b7
+      id: 3494571505
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ellen
+        ObjectType: 4
+      - ElementName: Ellen_Foley_FS_Material
+        ObjectType: 3
+      Path: Default Work Unit\Ellen\Ellen_Foley_FS_Material
+      maxAttenuation: 0
+      maxDuration: 0.65997
+      minDuration: 0.550217
+    - name: Ellen_Foley_Gear
+      guid: 6c2a149bd5b5744482c61fc7eac8e62a
+      id: 1618357287
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ellen
+        ObjectType: 4
+      - ElementName: Ellen_Foley_Gear
+        ObjectType: 3
+      Path: Default Work Unit\Ellen\Ellen_Foley_Gear
+      maxAttenuation: 0
+      maxDuration: 0.416156
+      minDuration: 0.248441
+    - name: Ellen_Foley_Jump_Down
+      guid: 2f15534a301ce64f9f75e302f845ee6e
+      id: 1585572417
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ellen
+        ObjectType: 4
+      - ElementName: Ellen_Foley_Jump_Down
+        ObjectType: 3
+      Path: Default Work Unit\Ellen\Ellen_Foley_Jump_Down
+      maxAttenuation: 0
+      maxDuration: 0.500521
+      minDuration: 0.5005
+    - name: Ellen_Foley_Jump_Up
+      guid: f41960ac52a84a469002ce34657d37af
+      id: 890634886
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ellen
+        ObjectType: 4
+      - ElementName: Ellen_Foley_Jump_Up
+        ObjectType: 3
+      Path: Default Work Unit\Ellen\Ellen_Foley_Jump_Up
+      maxAttenuation: 0
+      maxDuration: 0.612542
+      minDuration: 0.600604
+    - name: Ellen_Foley_Land
+      guid: 13e2273e5b1a2c458fd4bcb7373c1451
+      id: 1228257825
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ellen
+        ObjectType: 4
+      - ElementName: Ellen_Foley_Land
+        ObjectType: 3
+      Path: Default Work Unit\Ellen\Ellen_Foley_Land
+      maxAttenuation: 0
+      maxDuration: 0.490753
+      minDuration: 0.405529
+    - name: Ellen_Staff_Attack
+      guid: c1ff238631ba0d4d98965d1faa11465a
+      id: 3446503707
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ellen
+        ObjectType: 4
+      - ElementName: Ellen_Staff_Attack
+        ObjectType: 3
+      Path: Default Work Unit\Ellen\Ellen_Staff_Attack
+      maxAttenuation: 0
+      maxDuration: 0.512193
+      minDuration: 0.361699
+    - name: Enemy_Chomper_FS
+      guid: 11e6d0b1c2dc184cac5ee0dcc16bc2e9
+      id: 831511066
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Chomper_FS
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Chomper_FS
+      maxAttenuation: 25
+      maxDuration: 0.245464
+      minDuration: 0.116765
+    - name: Enemy_Chomper_VO_Attack
+      guid: adfc9833da5247479b6da413983e5f28
+      id: 3033186869
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Chomper_VO_Attack
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Chomper_VO_Attack
+      maxAttenuation: 25
+      maxDuration: 2.102104
+      minDuration: 0.283137
+    - name: Enemy_Chomper_VO_Hit
+      guid: 1a341ade68737747985ea12c2f7bd25c
+      id: 647099848
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Chomper_VO_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Chomper_VO_Hit
+      maxAttenuation: 25
+      maxDuration: 1.334687
+      minDuration: 0.280662
+    - name: Enemy_Chomper_VO_Idle
+      guid: b1ade8762bce6b4a90b99e7c8b3dc16a
+      id: 4278133303
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Chomper_VO_Idle
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Chomper_VO_Idle
+      maxAttenuation: 25
+      maxDuration: 1.334687
+      minDuration: 0.280662
+    - name: Enemy_Grenadier_Attack_Melee
+      guid: 2ab4d24208320a4d91fb2f02ab07f31c
+      id: 3553279493
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Grenadier_Attack_Melee
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Grenadier_Attack_Melee
+      maxAttenuation: 25
+      maxDuration: 2.669354
+      minDuration: 2.669354
+    - name: Enemy_Grenadier_Attack_Range_01
+      guid: 33924a146ffe8645b76f70a1c7aa2dd7
+      id: 1704318256
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Grenadier_Attack_Range_01
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Grenadier_Attack_Range_01
+      maxAttenuation: 25
+      maxDuration: 3.077292
+      minDuration: 3.077292
+    - name: Enemy_Grenadier_Attack_Range_02
+      guid: ff024dab8c48534781d80ba537d2f0ef
+      id: 1704318259
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Grenadier_Attack_Range_02
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Grenadier_Attack_Range_02
+      maxAttenuation: 25
+      maxDuration: 2.669333
+      minDuration: 2.669333
+    - name: Enemy_Grenadier_Attack_Spin
+      guid: a9dbe4dff55e83478dcb2732558bb9c5
+      id: 1907402663
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Grenadier_Attack_Spin
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Grenadier_Attack_Spin
+      maxAttenuation: 25
+      maxDuration: 1.334667
+      minDuration: 1.334667
+    - name: Enemy_Grenadier_Death
+      guid: 90b8b97d77b60347b278feb0928cd1a0
+      id: 2424235014
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Grenadier_Death
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Grenadier_Death
+      maxAttenuation: 25
+      maxDuration: 5.57225
+      minDuration: 5.57225
+    - name: Enemy_Grenadier_FS
+      guid: a979584618409047b57c3b95333c75a4
+      id: 335259441
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Grenadier_FS
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Grenadier_FS
+      maxAttenuation: 25
+      maxDuration: 0.388867
+      minDuration: 0.346441
+    - name: Enemy_Grenadier_Hit
+      guid: c31958e679d6a44a92377ffeddbed489
+      id: 2620170215
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Enemy
+        ObjectType: 4
+      - ElementName: Enemy_Grenadier_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Enemy\Enemy_Grenadier_Hit
+      maxAttenuation: 25
+      maxDuration: 1.200725
+      minDuration: 1.006799
+    - name: SFX_Gate_Activate
+      guid: 520ae72e52b6104ea680f9a4526c012d
+      id: 1765009776
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_Gate_Activate
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX_Gate_Activate
+      maxAttenuation: 0
+      maxDuration: 1.096189
+      minDuration: 1.096189
+    - name: SFX_Gate_Crystal_PickUp
+      guid: 0dced823fc85ad45acb51cc24fa3cdaa
+      id: 1929660194
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_Gate_Crystal_PickUp
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX_Gate_Crystal_PickUp
+      maxAttenuation: 0
+      maxDuration: 1.668354
+      minDuration: 1.668354
+    - name: SFX_Gate_Open
+      guid: 753ed3f48fd79940bba67abb096f9c02
+      id: 12342355
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_Gate_Open
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX_Gate_Open
+      maxAttenuation: 0
+      maxDuration: 5.005021
+      minDuration: 5.005021
+    - name: SFX_HealthChest_Open
+      guid: aa695eb6729e8644bda720aa93bff60b
+      id: 4134617817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_HealthChest_Open
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX_HealthChest_Open
+      maxAttenuation: 0
+      maxDuration: 4.755229
+      minDuration: 3.975
+    - name: SFX_Staff_PickUp
+      guid: 59af589d02bd8c4cab00cb157570ef93
+      id: 1385932960
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_Staff_PickUp
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX_Staff_PickUp
+      maxAttenuation: 0
+      maxDuration: 1.301292
+      minDuration: 1.301292
+    - name: SFX_Staff_Radiation
+      guid: 9d37c773673ac9449287e3cee319faa3
+      id: 302441121
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_Staff_Radiation
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX_Staff_Radiation
+      maxAttenuation: 25
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX_StoneCube_Destroy
+      guid: 682895bf69a24b4384f4daae6470da88
+      id: 3885590068
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 4
+      - ElementName: SFX_StoneCube_Destroy
+        ObjectType: 3
+      Path: Default Work Unit\SFX\SFX_StoneCube_Destroy
+      maxAttenuation: 0
+      maxDuration: 3.817886
+      minDuration: 2.519515
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 9d811ded0351c84095721d67c2813e53
+    GuidInternal: 
+    m_lastTime: -8586428118768071343
+    List:
+    - name: RTPC_Staff_Energy
+      guid: c216e293e03ba247b68e3868e6fd22f4
+      id: 2753658886
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_Staff_Energy
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_Staff_Energy
+    - name: SC_Ambiance_by_Staff
+      guid: aab0391870c77044bac8658f3291f128
+      id: 734256477
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SC_Ambiance_by_Staff
+        ObjectType: 13
+      Path: Default Work Unit\SC_Ambiance_by_Staff
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0979185fa37ea747a341a9b8637d9e9c
+    GuidInternal: 
+    m_lastTime: -8586439966923199372
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 44488346eb11fc45a544a80182b3827c
+    GuidInternal: 
+    m_lastTime: -8586438040215313781
+    List:
+    - name: FS_Material
+      guid: 38fd468dda7067439549ad244867ae71
+      id: 20433824
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FS_Material
+        ObjectType: 11
+      Path: Default Work Unit\FS_Material
+      values:
+      - name: Dirt
+        guid: 237cd7e64cb164419c638f498f5e806d
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Dirt
+          ObjectType: 10
+      - name: Grass
+        guid: d4497e7b8c3e854eb7746c28d141d363
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Stone
+        guid: d4b284a308b6d94c885f23d40ad71941
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Stone
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 648544abdb4b6e409e465c5381a6fadf
+    GuidInternal: 
+    m_lastTime: -8586439966923968928
+    List: []
+  ExpandedItems:
+  - /3D Game Kit_WwiseProject
+  - /3D Game Kit_WwiseProject/Events
+  - /3D Game Kit_WwiseProject/Events/Default Work Unit
+  - /3D Game Kit_WwiseProject/Events/Default Work Unit/Ambiance
+  - /3D Game Kit_WwiseProject/Events/Default Work Unit/SFX
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
